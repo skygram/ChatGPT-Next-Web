@@ -161,10 +161,10 @@ export function ModelConfigList(props: {
         ></input>
       </ListItem>
 
-      <ListItem
+      {/* <ListItem
         title={Locale.Settings.HistoryCount.Title}
         subTitle={Locale.Settings.HistoryCount.SubTitle}
-      >
+      > */}
         <InputRange
           title={props.modelConfig.historyMessageCount.toString()}
           value={props.modelConfig.historyMessageCount}
