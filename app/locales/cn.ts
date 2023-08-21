@@ -318,20 +318,20 @@ const cn = {
     Config: {
       Avatar: "角色头像",
       Name: "角色名称",
-      // Sync: {
-      //   Title: "使用全局设置",
-      //   SubTitle: "当前对话是否使用全局模型设置",
-      //   Confirm: "当前对话的自定义设置将会被自动覆盖，确认启用全局设置？",
-      // },
-      // HideContext: {
-      //   Title: "隐藏预设对话",
-      //   SubTitle: "隐藏后预设对话不会出现在聊天界面",
-      // },
-      // Share: {
-      //   Title: "分享此面具",
-      //   SubTitle: "生成此面具的直达链接",
-      //   Action: "复制链接",
-      // },
+      Sync: {
+        Title: "使用全局设置",
+        SubTitle: "当前对话是否使用全局模型设置",
+        Confirm: "当前对话的自定义设置将会被自动覆盖，确认启用全局设置？",
+      },
+      HideContext: {
+        Title: "隐藏预设对话",
+        SubTitle: "隐藏后预设对话不会出现在聊天界面",
+      },
+      Share: {
+        Title: "分享此面具",
+        SubTitle: "生成此面具的直达链接",
+        Action: "复制链接",
+      },
     },
   },
   NewChat: {
