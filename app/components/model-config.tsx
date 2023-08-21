@@ -164,8 +164,7 @@ export function ModelConfigList(props: {
       {/* <ListItem
         title={Locale.Settings.HistoryCount.Title}
         subTitle={Locale.Settings.HistoryCount.SubTitle}
-      > */}
-        <InputRange
+      >  <InputRange
           title={props.modelConfig.historyMessageCount.toString()}
           value={props.modelConfig.historyMessageCount}
           min="0"
@@ -177,7 +176,7 @@ export function ModelConfigList(props: {
             )
           }
         ></InputRange>
-      </ListItem>
+      </ListItem> */}
 
       <ListItem
         title={Locale.Settings.CompressThreshold.Title}
