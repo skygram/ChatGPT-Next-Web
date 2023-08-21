@@ -31,7 +31,9 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
+        <title>Gabbit - Seeking truths through dialogues.</title>
         <meta name="config" content={JSON.stringify(getClientConfig())} />
+        <meta name="description" content="Fortune Deck: Gabbit is your personal chat bot that can help you with anything you need. Ask Gabbit anything and it will do its best to help you out." />
         <link rel="manifest" href="/site.webmanifest"></link>
         <script src="/serviceWorkerRegister.js" defer></script>
         <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6695277533860534" crossOrigin="anonymous"></script>
