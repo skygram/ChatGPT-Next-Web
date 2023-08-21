@@ -206,14 +206,14 @@ const cn = {
         Title: "编辑提示词",
       },
     },
-    // HistoryCount: {
-    //   Title: "附带历史消息数",
-    //   SubTitle: "每次请求携带的历史消息数",
-    // },
-    // CompressThreshold: {
-    //   Title: "历史消息长度压缩阈值",
-    //   SubTitle: "当未压缩的历史消息超过该值时，将进行压缩",
-    // },
+    HistoryCount: {
+      Title: "附带历史消息数",
+      SubTitle: "每次请求携带的历史消息数",
+    },
+    CompressThreshold: {
+      Title: "历史消息长度压缩阈值",
+      SubTitle: "当未压缩的历史消息超过该值时，将进行压缩",
+    },
     Token: {
       Title: "API Key",
       SubTitle: "使用自己的 Key 可绕过密码访问限制",
