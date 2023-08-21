@@ -121,7 +121,7 @@ export function SideBar(props: { className?: string }) {
             Gabbit
         </div>
         <div className={styles["sidebar-sub-title"]}>
-          Build your own AI assistant.
+            Seeking truths through dialogues.
         </div>
         <div className={styles["sidebar-logo"] + " no-dark"}>
           <ChatGptIcon />
