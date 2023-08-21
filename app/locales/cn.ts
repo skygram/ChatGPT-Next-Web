@@ -220,28 +220,28 @@ const cn = {
       Placeholder: "OpenAI API Key",
     },
 
-    // Usage: {
-    //   Title: "余额查询",
-    //   SubTitle(used: any, total: any) {
-    //     return `本月已使用 $${used}，订阅总额 $${total}`;
-    //   },
-    //   IsChecking: "正在检查…",
-    //   Check: "重新检查",
-    //   NoAccess: "输入 API Key 或访问密码查看余额",
-    // },
+    Usage: {
+      Title: "余额查询",
+      SubTitle(used: any, total: any) {
+        return `本月已使用 $${used}，订阅总额 $${total}`;
+      },
+      IsChecking: "正在检查…",
+      Check: "重新检查",
+      NoAccess: "输入 API Key 或访问密码查看余额",
+    },
     AccessCode: {
       Title: "访问密码",
       SubTitle: "管理员已开启加密访问",
       Placeholder: "请输入访问密码",
     },
-    // Endpoint: {
-    //   Title: "接口地址",
-    //   SubTitle: "除默认地址外，必须包含 http(s)://",
-    // },
-    // CustomModel: {
-    //   Title: "自定义模型名",
-    //   SubTitle: "增加自定义模型可选项，使用英文逗号隔开",
-    // },
+    Endpoint: {
+      Title: "接口地址",
+      SubTitle: "除默认地址外，必须包含 http(s)://",
+    },
+    CustomModel: {
+      Title: "自定义模型名",
+      SubTitle: "增加自定义模型可选项，使用英文逗号隔开",
+    },
     Model: "模型 (model)",
     Temperature: {
       Title: "随机性 (temperature)",
@@ -290,9 +290,9 @@ const cn = {
     Clear: "上下文已清除",
     Revert: "恢复上下文",
   },
-  // Plugin: {
-  //   Name: "插件",
-  // },
+  Plugin: {
+    Name: "插件",
+  },
   Mask: {
     Name: "面具",
     Page: {
