@@ -206,42 +206,42 @@ const cn = {
         Title: "编辑提示词",
       },
     },
-    HistoryCount: {
-      Title: "附带历史消息数",
-      SubTitle: "每次请求携带的历史消息数",
-    },
-    CompressThreshold: {
-      Title: "历史消息长度压缩阈值",
-      SubTitle: "当未压缩的历史消息超过该值时，将进行压缩",
-    },
+    // HistoryCount: {
+    //   Title: "附带历史消息数",
+    //   SubTitle: "每次请求携带的历史消息数",
+    // },
+    // CompressThreshold: {
+    //   Title: "历史消息长度压缩阈值",
+    //   SubTitle: "当未压缩的历史消息超过该值时，将进行压缩",
+    // },
     Token: {
       Title: "API Key",
       SubTitle: "使用自己的 Key 可绕过密码访问限制",
       Placeholder: "OpenAI API Key",
     },
 
-    Usage: {
-      Title: "余额查询",
-      SubTitle(used: any, total: any) {
-        return `本月已使用 $${used}，订阅总额 $${total}`;
-      },
-      IsChecking: "正在检查…",
-      Check: "重新检查",
-      NoAccess: "输入 API Key 或访问密码查看余额",
-    },
+    // Usage: {
+    //   Title: "余额查询",
+    //   SubTitle(used: any, total: any) {
+    //     return `本月已使用 $${used}，订阅总额 $${total}`;
+    //   },
+    //   IsChecking: "正在检查…",
+    //   Check: "重新检查",
+    //   NoAccess: "输入 API Key 或访问密码查看余额",
+    // },
     AccessCode: {
       Title: "访问密码",
       SubTitle: "管理员已开启加密访问",
       Placeholder: "请输入访问密码",
     },
-    Endpoint: {
-      Title: "接口地址",
-      SubTitle: "除默认地址外，必须包含 http(s)://",
-    },
-    CustomModel: {
-      Title: "自定义模型名",
-      SubTitle: "增加自定义模型可选项，使用英文逗号隔开",
-    },
+    // Endpoint: {
+    //   Title: "接口地址",
+    //   SubTitle: "除默认地址外，必须包含 http(s)://",
+    // },
+    // CustomModel: {
+    //   Title: "自定义模型名",
+    //   SubTitle: "增加自定义模型可选项，使用英文逗号隔开",
+    // },
     Model: "模型 (model)",
     Temperature: {
       Title: "随机性 (temperature)",
@@ -266,7 +266,10 @@ const cn = {
   },
   Store: {
     DefaultTopic: "新的聊天",
-    BotHello: "有什么可以帮你的吗",
+    BotHello: "你好!欢迎来到Gabbit,我们的目标是通过友好的对话为您提供考虑周到的解答。\
+    为了给您带来启发。请毫无顾虑地说出您的想法 - 我相信每一次建设性的对话都让我们更进一步地相互理解。\
+    为了保护您的数据隐私，所有的数据都只存在您自己的浏览器里，Gabbit不做任何存储。\
+    让我们一起开始这段发现之旅。请问，我今天能为您提供什么帮助呢?",
     Error: "出错了，稍后重试吧",
     Prompt: {
       History: (content: string) => "这是历史聊天总结作为前情提要：" + content,
@@ -287,9 +290,9 @@ const cn = {
     Clear: "上下文已清除",
     Revert: "恢复上下文",
   },
-  Plugin: {
-    Name: "插件",
-  },
+  // Plugin: {
+  //   Name: "插件",
+  // },
   Mask: {
     Name: "面具",
     Page: {
@@ -309,26 +312,26 @@ const cn = {
     EditModal: {
       Title: (readonly: boolean) =>
         `编辑预设面具 ${readonly ? "（只读）" : ""}`,
-      Download: "下载预设",
-      Clone: "克隆预设",
+      // Download: "下载预设",
+      // Clone: "克隆预设",
     },
     Config: {
       Avatar: "角色头像",
       Name: "角色名称",
-      Sync: {
-        Title: "使用全局设置",
-        SubTitle: "当前对话是否使用全局模型设置",
-        Confirm: "当前对话的自定义设置将会被自动覆盖，确认启用全局设置？",
-      },
-      HideContext: {
-        Title: "隐藏预设对话",
-        SubTitle: "隐藏后预设对话不会出现在聊天界面",
-      },
-      Share: {
-        Title: "分享此面具",
-        SubTitle: "生成此面具的直达链接",
-        Action: "复制链接",
-      },
+      // Sync: {
+      //   Title: "使用全局设置",
+      //   SubTitle: "当前对话是否使用全局模型设置",
+      //   Confirm: "当前对话的自定义设置将会被自动覆盖，确认启用全局设置？",
+      // },
+      // HideContext: {
+      //   Title: "隐藏预设对话",
+      //   SubTitle: "隐藏后预设对话不会出现在聊天界面",
+      // },
+      // Share: {
+      //   Title: "分享此面具",
+      //   SubTitle: "生成此面具的直达链接",
+      //   Action: "复制链接",
+      // },
     },
   },
   NewChat: {
